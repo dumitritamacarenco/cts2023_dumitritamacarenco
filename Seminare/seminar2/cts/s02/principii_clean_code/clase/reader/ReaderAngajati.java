@@ -22,6 +22,7 @@ public class ReaderAngajati extends ReaderAplicant {
 			
 			super.readFromFile(input2, angajat);
 			
+			
 			angajat.setSalariu(Integer.valueOf(input2.nextInt()));
 			angajat.setOcupatie(input2.next());
 			
