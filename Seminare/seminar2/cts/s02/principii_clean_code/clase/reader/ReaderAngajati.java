@@ -26,7 +26,6 @@ public class ReaderAngajati extends ReaderAplicant {
 			angajat.setSalariu(Integer.valueOf(input2.nextInt()));
 			angajat.setOcupatie(input2.next());
 			
-			
 			angajati.add(angajat);
 		}
 		input2.close();
