@@ -15,6 +15,7 @@ public class Student extends Aplicant {
 	public void setFacultate(String facultate) {
 		this.facultate = facultate;
 	}
+	
 	public int getAn_studii() {
 		return an_studii;
 	}
