@@ -13,6 +13,8 @@ public class Director {
 		this.varsta = varsta;
 	}
 	
+	// only one thread can execute this at a time
+	//synchronized method to control simultaneous access
 	public synchronized static Director getInstance(String nume) {
 		if(instanta == null) {
 			

@@ -8,5 +8,6 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="seminar2"/>
 	<classpathentry kind="src" path="singleton"/>
+	<classpathentry kind="src" path="Sem5SimpleFactory"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

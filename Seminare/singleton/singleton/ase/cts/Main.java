@@ -14,6 +14,9 @@ public class Main {
 	System.out.println(director1.toString());
 	System.out.println(director2.toString());
 	
+	System.out.println(papa1.toString());
+	System.out.println(papa2.toString());
+	
 	
 	}
 

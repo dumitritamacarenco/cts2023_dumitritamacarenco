@@ -24,7 +24,7 @@ public class Papa {
 	public void setAlCatalea(int alCatalea) {
 		this.alCatalea = alCatalea;
 	}
-	private Papa(String nume, int nrAniFunctie, int alCatalea) { // trb sa fie private ca sa l facem single ton
+	private Papa(String nume, int nrAniFunctie, int alCatalea) { // trb sa fie private ca sa l facem singleton
 		super();
 		this.nume = nume;
 		this.nrAniFunctie = nrAniFunctie;
@@ -36,6 +36,20 @@ public class Papa {
 	public static Papa getInstance() { 
 		return papa; // eager initialization
 	}
+	@Override
+	public String toString() {
+		StringBuilder builder = new StringBuilder();
+		builder.append("Papa [nume=");
+		builder.append(nume);
+		builder.append(", nrAniFunctie=");
+		builder.append(nrAniFunctie);
+		builder.append(", alCatalea=");
+		builder.append(alCatalea);
+		builder.append("]");
+		return builder.toString();
+	}
+	
+	
 	
 
 }
