@@ -11,5 +11,6 @@
 	<classpathentry kind="src" path="Sem5SimpleFactory"/>
 	<classpathentry kind="src" path="seminar6"/>
 	<classpathentry kind="src" path="seminar7"/>
+	<classpathentry kind="src" path="seminar8"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

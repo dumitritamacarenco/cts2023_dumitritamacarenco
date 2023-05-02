@@ -8,7 +8,7 @@ import ro.ase.acs.AdapterObject.CreditAdapterObject;
 
 
 
-public class Main {
+public class Main2 {
 	
 	public static void afiseazaCredit(int suma, Credit c) {
 		c.oferaCredit(suma);
