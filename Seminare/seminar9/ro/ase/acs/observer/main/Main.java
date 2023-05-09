@@ -22,7 +22,6 @@ public class Main {
 		restaurant.abonareClient(client3);
 		restaurant.dezabonareClient(client1);
 		restaurant.adaugareDiscount(20);
-
 	}
 
 }
