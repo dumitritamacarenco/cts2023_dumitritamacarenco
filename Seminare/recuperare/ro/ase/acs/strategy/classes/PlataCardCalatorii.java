@@ -4,7 +4,7 @@ public class PlataCardCalatorii implements TipPlata {
 
 	@Override
 	public void plateste(double pretBilet) {
-		// TODO Auto-generated method stub
+	System.out.println(String.format("Plata biletului in valoare de %f a fost efectuata cu card calatorii", pretBilet));
 		
 	}
 
