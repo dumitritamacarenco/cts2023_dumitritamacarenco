@@ -14,5 +14,7 @@
 	<classpathentry kind="src" path="seminar8"/>
 	<classpathentry kind="src" path="seminar9"/>
 	<classpathentry kind="src" path="recuperare"/>
+	<classpathentry kind="src" path="seminar11"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
