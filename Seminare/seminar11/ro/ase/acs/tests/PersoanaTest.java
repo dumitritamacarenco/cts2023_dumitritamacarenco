@@ -5,8 +5,8 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.function.Executable;
 
-import acs.classes.testareUnitara.NotBornYetException;
-import acs.classes.testareUnitara.Persoana;
+import ro.ase.acs.persoana.model.NotBornYetException;
+import ro.ase.acs.persoana.model.Persoana;
 
 class PersoanaTest {
 

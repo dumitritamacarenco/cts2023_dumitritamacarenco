@@ -1,9 +1,11 @@
-package acs.classes.testareUnitara;
+package ro.ase.acs.persoana.model;
 
 
 
 import java.util.Calendar;
 import java.util.concurrent.TimeUnit;
+
+import acs.classes.testareUnitara.IPersoana;
 
 public class Persoana implements IPersoana{
 

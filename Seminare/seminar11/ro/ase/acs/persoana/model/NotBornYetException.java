@@ -1,4 +1,4 @@
-package acs.classes.testareUnitara;
+package ro.ase.acs.persoana.model;
 
 public class NotBornYetException extends IllegalArgumentException {
 
